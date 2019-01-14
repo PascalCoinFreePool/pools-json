@@ -1,0 +1,49 @@
+{
+    "pools" : [
+        {
+            "name" : "OpenPool",
+            "url" : "https://pool.pascalpool.org/",
+            "api" : "https://pool.pascalpool.org/api/",
+            "type" : "openpool",
+            "location" : ["US"],
+            "payment": ["prop"],
+            "miningAddress" : "mine.pool.pascalpool.org"
+        },
+        {
+            "name" : "c3pool",
+            "url" : "https://pasc.c3pool.com/",
+            "api" : "https://pasc.c3pool.com/api/",
+            "type" : "openpool",
+            "location" : ["US","EU","ASIA"],
+            "payment": ["prop"],
+            "miningAddress" : "mine.pasc.c3pool.com"
+        },
+        {
+            "name" : "Nanopool",
+            "url" : "https://pasc.nanopool.org/",
+            "api" : "https://pasc.nanopool.org/api/v1/",
+            "type" : "nanopool",
+            "location" : ["US","EU","ASIA"],
+            "payment": ["pplns"],
+            "miningAddress" : "mine.pasc.c3pool.com"
+        },
+        {
+            "name" : "Coinotron",
+            "url" : "https://coinotron.com/",
+            "api" : "https://www.coinotron.com/app?action=api",
+            "type" : "coinotron",
+            "location" : ["EU"],
+            "payment": ["pplns","rbpps","pps"],
+            "miningAddress" : "coinotron.com"
+        },
+        {
+            "name" : "F2Pool",
+            "url" : "https://www.f2pool.com/coin/pascal-coin",
+            "api" : "https://api.f2pool.com/pasc/",
+            "type" : "f2pool",
+            "location" : ["ASIA"],
+            "payment": ["pps"],
+            "miningAddress" : "pasc.f2pool.com"
+        }
+    ]
+}
