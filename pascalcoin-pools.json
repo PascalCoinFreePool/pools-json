@@ -25,7 +25,7 @@
             "type" : "nanopool",
             "location" : ["US","EU","ASIA"],
             "payment": ["pplns"],
-            "miningAddress" : "mine.pasc.c3pool.com"
+            "miningAddress" : "pasc-eu1.nanopool.org"
         },
         {
             "name" : "Coinotron",
